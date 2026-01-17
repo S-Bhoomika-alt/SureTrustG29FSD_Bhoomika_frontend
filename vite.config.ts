@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 
   preview: {
-    allowedHosts: ["suretrustg29fsd-bhoomika-frontend.onrender.com"],
+    allowedHosts: ["https://suretrustg29fsd-bhoomika.onrender.com"],
     host: "0.0.0.0",
     port: Number(process.env.PORT) || 4173,
   },
